@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    padding: 150px 240px;
+    height: 100vh;
+}
+
+div {
+    height: 150px;
+    width: 150px;
+    background-color: orange;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+#box3 {
+    position: relative;
+}
+
+#box2 {
+    position: absolute;
+    top: 305px;
+}
+
+#box5 {
+    position: absolute;
+    top: 305px;
+    left: 560px;
+}
+
+#box1 {
+    position: absolute;
+    bottom: 595px;
+    left: 555px;
+}
+
+#box3 {
+    position: absolute;
+    bottom: 595px;
+}
+
+#box4 {
+    margin-left: 158px;
+    background-color: red;
+}

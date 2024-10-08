@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .car {
+    position: relative;
+  }
+  
+  .wheels {
+    position: absolute;
+    height: 160px;
+    left: 400px;
+    bottom: 440px;
+    z-index: -10;
+    animation: rotate 0.5ms ease-in-out 0ms infinite;
+  }
+  
+  .wheels-one {
+    position: absolute;
+    height: 160px;
+    right: 470px;
+    bottom: 440px;
+    z-index: -10;
+    animation: rotate 0.5ms ease-in-out 0ms infinite;
+  }
+  
+  @keyframes rotate {
+    100% {
+      transform: rotate(360deg);
+    }
+  }

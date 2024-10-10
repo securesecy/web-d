@@ -3,110 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bala Website</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: Arial, sans-serif;
-        }
-
-        header {
-            background-color: #0b1b2e;
-            color: white;
-            padding: 20px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        header h1 {
-            margin-left: 30px;
-        }
-
-        nav ul {
-            list-style: none;
-            display: flex;
-            margin-right: 30px;
-        }
-
-        nav ul li {
-            margin-left: 20px;
-        }
-
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        .hero {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 50px;
-            background-color: #f5f8fb;
-        }
-
-        .hero img {
-            max-width: 50%;
-            height: auto;
-            border-radius: 10px;
-        }
-
-        .hero-text {
-            background-color: #25497e;
-            color: white;
-            padding: 40px;
-            border-radius: 20px;
-            width: 40%;
-        }
-
-        .hero-text h2 {
-            font-size: 2rem;
-            margin-bottom: 20px;
-        }
-
-        .hero-text p {
-            margin-bottom: 30px;
-        }
-
-        .hero-text button {
-            background-color: white;
-            color: #25497e;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            font-weight: bold;
-            cursor: pointer;
-        }
-    </style>
+    <title>Blog Page</title>
+    <link rel="stylesheet" href="set1.css">
 </head>
 <body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
 
-    <header>
-        <h1>Bala</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section class="hero">
-        <img src="your-image.jpg" alt="Woman smiling">
-        <div class="hero-text">
-            <h2>Helping you find your vision.</h2>
-            <p>I'm a text box. Double click me to edit the text or to change the way I look.</p>
-            <button>Let's talk</button>
+    <!-- Background Image Section -->
+    <section class="hero-section">
+        <div class="overlay-card">
+            <h2>Let's Work Together</h2>
+            <p>We help you reach your goals with our personalized coaching programs.</p>
+            <button class="cta-btn">Let's Talk</button>
         </div>
     </section>
 
+    <!-- Services Section -->
+    <section class="services-section">
+        <h2>All Things You Need</h2>
+        <p>Explore our comprehensive coaching solutions to help you grow and succeed.</p>
+
+        <div class="card-grid">
+            <!-- First Row of Cards -->
+            <div class="card">
+                <img src="1on1.jpg" alt="1 on 1 Coaching">
+                <h3>1 on 1 Coaching</h3>
+                <p>Our personalized 1-on-1 coaching helps you focus on your individual goals and grow at your own pace.</p>
+            </div>
+            <div class="card">
+                <img src="virtual-coaching.jpg" alt="Virtual Coaching">
+                <h3>Virtual Coaching</h3>
+                <p>Get the benefits of coaching from the comfort of your own home with our flexible virtual coaching sessions.</p>
+            </div>
+
+            <!-- Second Row of Cards -->
+            <div class="card">
+                <img src="executive-coaching.jpg" alt="Executive Coaching">
+                <h3>Executive Coaching</h3>
+                <p>Designed for professionals, our executive coaching programs help you enhance leadership skills and performance.</p>
+            </div>
+            <div class="card">
+                <img src="virtual-coaching2.jpg" alt="Virtual Coaching">
+                <h3>Virtual Coaching</h3>
+                <p>Our advanced virtual coaching is tailored for your evolving professional needs and can be accessed from anywhere.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team-section">
+        <h2>Meet Our Team</h2>
+        <p>Get to know the professionals who are here to guide you to success.</p>
+        <div class="team-buttons">
+            <button class="team-btn">The Team</button>
+            <button class="team-btn">Contact Us</button>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <h3>Hi there, let's connect!</h3>
+        <div class="social-icons">
+            <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+            <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+        </div>
+    </footer>
 </body>
 </html>

@@ -1,0 +1,1 @@
+let str = "The Sky is blue"

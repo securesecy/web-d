@@ -8,5 +8,20 @@ for(let i =0; i<res.length; i++){
     str1 = str1+res[i].split("").reverse().join("")+" ";
 }
 console.log(str1);
-let ans2 = str.split(" ").reverse.join(" ");
+let ans2 = str.split(" ").reverse().join(" ");
 console.log(ans2);
+
+
+
+let user1={
+    Name1:"Rohit",
+    fun: function(){
+        console.log(this.Name1);
+    }
+}
+user1.fun();
+
+
+
+
+

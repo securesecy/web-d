@@ -6,7 +6,6 @@ function Download(url,Down){
     },3000);
 }
 
-
 function Compress(img,comp){
     console.log("fie start compressing....");
     setTimeout(()=>{
